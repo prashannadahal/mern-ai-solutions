@@ -1,0 +1,23 @@
+.art-hero { padding:140px 32px 60px; background:linear-gradient(135deg,var(--cream) 0%,rgba(61,53,128,.05) 100%); }
+.art-card { background:var(--white); border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--cream-dark); transition:var(--transition); display:flex; flex-direction:column; }
+.art-card:hover { box-shadow:var(--shadow-lg); transform:translateY(-4px); }
+.art-thumb { height:200px; overflow:hidden; background:linear-gradient(135deg,var(--indigo),var(--indigo-light)); flex-shrink:0; }
+.art-thumb img { width:100%; height:100%; object-fit:cover; transition:.5s ease; }
+.art-card:hover .art-thumb img { transform:scale(1.05); }
+.art-thumb-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-size:3rem; color:var(--gold); }
+.art-body { padding:24px; flex:1; display:flex; flex-direction:column; }
+.art-meta { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+.art-date { font-size:.75rem; color:var(--slate); }
+.art-title { font-family:var(--font-display); font-size:1.05rem; font-weight:700; color:var(--indigo-dark); margin-bottom:10px; line-height:1.35; }
+.art-excerpt { font-size:.85rem; color:var(--slate); line-height:1.65; }
+.art-full { margin-top:16px; padding-top:16px; border-top:1px solid var(--cream-dark); }
+.art-full p { font-size:.88rem; color:var(--slate-dark); line-height:1.8; margin-bottom:12px; }
+.art-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:12px; }
+.art-footer { margin-top:16px; padding-top:16px; border-top:1px solid var(--cream-dark); display:flex; align-items:center; justify-content:space-between; }
+.art-author { display:flex; align-items:center; gap:8px; }
+.author-chip { width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,var(--indigo),var(--gold)); display:flex; align-items:center; justify-content:center; font-size:.7rem; color:var(--white); font-weight:700; flex-shrink:0; }
+.author-name { font-size:.78rem; font-weight:600; color:var(--slate-dark); }
+.btn-expand { display:inline-flex; align-items:center; gap:6px; color:var(--indigo); font-size:.82rem; font-weight:600; background:none; border:none; cursor:pointer; transition:var(--transition); padding:0; }
+.btn-expand:hover { color:var(--gold-dark); }
+.expand-icon { transition:var(--transition); font-size:.75rem; }
+.btn-expand.open .expand-icon { transform:rotate(180deg); }

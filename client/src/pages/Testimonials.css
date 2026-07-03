@@ -1,0 +1,14 @@
+.tes-hero { padding:140px 32px 80px; background:linear-gradient(135deg,var(--cream-light),var(--cream)); text-align:center; }
+.rating-strip { display:flex; gap:48px; background:var(--indigo-dark); padding:40px 48px; border-radius:var(--radius-lg); color:var(--white); margin-bottom:48px; align-items:center; flex-wrap:wrap; }
+.rating-stat-num { font-family:var(--font-display); font-size:2.8rem; font-weight:700; color:var(--gold); }
+.rating-stat-label { font-size:.82rem; color:rgba(255,255,255,.6); margin-top:4px; }
+.tes-card { background:var(--white); border-radius:var(--radius-lg); padding:32px; border:1px solid var(--cream-dark); transition:var(--transition); }
+.tes-card:hover { box-shadow:var(--shadow-lg); transform:translateY(-3px); }
+.tes-stars { color:var(--gold); font-size:.9rem; margin-bottom:12px; }
+.tes-quote { font-size:2.5rem; color:var(--gold); line-height:1; margin-bottom:12px; font-family:Georgia,serif; }
+.tes-text { font-size:.92rem; color:var(--slate-dark); line-height:1.75; margin-bottom:24px; font-style:italic; }
+.tes-author { display:flex; align-items:center; gap:14px; }
+.tes-avatar { width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg,var(--indigo),var(--gold)); display:flex; align-items:center; justify-content:center; font-size:1rem; color:var(--white); font-weight:700; flex-shrink:0; }
+.tes-name { font-weight:700; font-size:.9rem; color:var(--indigo-dark); }
+.tes-role { font-size:.78rem; color:var(--slate); margin-top:2px; }
+@media(max-width:768px) { .rating-strip{gap:24px;padding:28px} }

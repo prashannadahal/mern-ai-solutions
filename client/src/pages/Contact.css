@@ -1,0 +1,18 @@
+.con-hero { padding:140px 32px 80px; background:linear-gradient(135deg,var(--indigo-dark),var(--indigo)); text-align:center; color:var(--white); }
+.con-hero h1 { font-family:var(--font-display); font-size:3rem; color:var(--white); margin-bottom:12px; }
+.con-hero p { color:rgba(255,255,255,.7); max-width:500px; margin:0 auto; }
+.con-layout { display:grid; grid-template-columns:1fr 1.4fr; gap:56px; align-items:flex-start; padding:80px 32px; max-width:1100px; margin:0 auto; }
+.con-info-card { background:var(--white); border-radius:var(--radius-lg); padding:36px; box-shadow:var(--shadow-md); border:1px solid var(--cream-dark); }
+.con-info-heading { font-family:var(--font-display); font-size:1.3rem; color:var(--indigo-dark); margin-bottom:24px; }
+.con-info-item { display:flex; gap:16px; margin-bottom:24px; align-items:flex-start; }
+.con-info-icon { width:44px; height:44px; background:rgba(61,53,128,.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--indigo); flex-shrink:0; }
+.con-info-label { font-size:.75rem; font-weight:600; color:var(--slate); text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+.con-info-value { font-size:.9rem; color:var(--slate-dark); font-weight:500; }
+.con-form-wrap { background:var(--white); border-radius:var(--radius-lg); padding:40px; box-shadow:var(--shadow-md); border:1px solid var(--cream-dark); }
+.con-form-title { font-family:var(--font-display); font-size:1.6rem; font-weight:700; color:var(--indigo-dark); margin-bottom:8px; }
+.con-form-sub { font-size:.875rem; color:var(--slate); margin-bottom:28px; }
+.con-checkbox-row { display:flex; align-items:flex-start; gap:12px; margin-bottom:20px; cursor:pointer; font-size:.85rem; color:var(--slate); line-height:1.5; }
+.con-checkbox-row input { width:16px; height:16px; accent-color:var(--indigo); flex-shrink:0; margin-top:2px; }
+.con-privacy { font-size:.75rem; color:var(--slate); margin-top:12px; text-align:center; }
+.form-error { font-size:.78rem; color:var(--error); margin-top:4px; }
+@media(max-width:1024px) { .con-layout{grid-template-columns:1fr;padding:48px 24px} }

@@ -1,0 +1,19 @@
+.sol-hero { padding:140px 32px 80px; background:linear-gradient(135deg,var(--indigo-dark) 0%,var(--indigo) 100%); text-align:center; }
+.sol-hero h1 { font-family:var(--font-display); font-size:3rem; font-weight:700; color:var(--white); margin-bottom:16px; }
+.sol-hero p { color:rgba(255,255,255,.7); font-size:1.05rem; max-width:540px; margin:0 auto; }
+.sol-card { background:var(--white); border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--cream-dark); transition:var(--transition); display:flex; flex-direction:column; }
+.sol-card:hover { box-shadow:var(--shadow-lg); transform:translateY(-4px); }
+.sol-card-img { height:200px; background:linear-gradient(135deg,var(--indigo),var(--indigo-light)); display:flex; align-items:center; justify-content:center; }
+.sol-card-body { padding:28px; flex:1; display:flex; flex-direction:column; }
+.sol-card-title { font-family:var(--font-display); font-size:1.2rem; font-weight:700; color:var(--indigo-dark); margin-bottom:10px; }
+.sol-card-desc { font-size:.875rem; color:var(--slate); line-height:1.65; margin-bottom:16px; flex:1; }
+.sol-card-tags { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
+.sol-expanded { padding:16px 0; border-top:1px solid var(--cream-dark); margin-bottom:12px; }
+.sol-expanded p { font-size:.85rem; color:var(--slate); line-height:1.7; margin-bottom:10px; }
+.sol-features-list { padding-left:0; margin-top:12px; }
+.sol-features-list li { font-size:.85rem; color:var(--slate); margin-bottom:8px; padding-left:20px; position:relative; }
+.sol-features-list li::before { content:'→'; position:absolute; left:0; color:var(--gold); }
+.btn-expand { display:inline-flex; align-items:center; gap:6px; color:var(--indigo); font-size:.82rem; font-weight:600; background:none; border:none; cursor:pointer; transition:var(--transition); padding:0; margin-top:auto; }
+.btn-expand:hover { color:var(--gold-dark); }
+.expand-icon { transition:var(--transition); font-size:.75rem; }
+.btn-expand.open .expand-icon { transform:rotate(180deg); }
